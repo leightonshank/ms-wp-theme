@@ -12,12 +12,6 @@
   <script src="<?php echo esc_url( get_template_directory_uri() ); ?>/js/html5.js"></script>
   <![endif]-->
 
-  <!-- bower:css -->
-  <link rel="stylesheet" href="<?php echo esc_url( get_template_directory_uri() ); ?>/bower_components/fontawesome/css/font-awesome.css" />
-  <!-- endbower -->
-
-  <link rel="stylesheet" href="<?php echo esc_url( get_template_directory_uri() ); ?>/dist/css/midnightspaghetti.css" />
-
   <?php wp_head(); ?>
 
 </head>

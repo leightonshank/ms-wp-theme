@@ -54,11 +54,6 @@
     </div>
   </div>
 
-  <!-- bower:js -->
-  <script src="<?php echo esc_url( get_template_directory_uri() ); ?>/bower_components/jquery/dist/jquery.js"></script>
-  <script src="<?php echo esc_url( get_template_directory_uri() ); ?>/bower_components/bootstrap/dist/js/bootstrap.js"></script>
-  <!-- endbower -->
-
 <?php wp_footer(); ?>
 </body>
 </html>

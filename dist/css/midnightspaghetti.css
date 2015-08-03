@@ -672,7 +672,7 @@ blockquote {
   padding: 11px 22px;
   margin: 0 0 22px;
   font-size: 20px;
-  border-left: 5px solid #eeeeee;
+  border-left: 5px solid #000000;
 }
 blockquote p:last-child,
 blockquote ul:last-child,
@@ -685,7 +685,7 @@ blockquote .small {
   display: block;
   font-size: 80%;
   line-height: 1.42857143;
-  color: #777777;
+  color: #db1a21;
 }
 blockquote footer:before,
 blockquote small:before,
@@ -696,7 +696,7 @@ blockquote .small:before {
 blockquote.pull-right {
   padding-right: 15px;
   padding-left: 0;
-  border-right: 5px solid #eeeeee;
+  border-right: 5px solid #000000;
   border-left: 0;
   text-align: right;
 }
@@ -5989,6 +5989,9 @@ button.close {
 }
 /* Midnight Spaghetti custom variables */
 /* Bootstrap variable overrides */
+#content .contact-form label span {
+  color: #db1a21;
+}
 #ms-navbar .navbar-brand {
   padding-top: 6px;
   padding-bottom: 0;

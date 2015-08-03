@@ -47,7 +47,7 @@ function midnightspaghetti_scripts() {
   wp_enqueue_script(
     'bootstrap',
     get_template_directory_uri() . '/bower_components/bootstrap/dist/js/bootstrap.js',
-    array(),
+    array('jquery'),
     '3.3.5'
   );
 }
